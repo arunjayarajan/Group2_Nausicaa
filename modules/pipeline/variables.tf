@@ -1,0 +1,9 @@
+variable "project-name" {}
+variable "codebuild-service-role-arn" {}
+variable "dockerhub-credentials" {}
+variable "codepipeline-role-arn" {}
+variable "codestar-credentials" {}
+variable "aws-s3-bucket" {}
+variable "plan" {}
+variable "apply" {}
+#variable "kms_key_arn" {}

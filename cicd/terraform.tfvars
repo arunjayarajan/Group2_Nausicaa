@@ -1,0 +1,7 @@
+region="eu-west-1"
+project-name="grants"
+dockerhub-credentials="arn:aws:secretsmanager:eu-west-1:404463546753:secret:codebuild/dockerhub-FiIoQt"
+codestar-credentials="arn:aws:codestar-connections:eu-west-1:404463546753:connection/a7125219-e2fb-4c62-b602-cb13bc64d064"
+plan="/home/chimezirim/Group2-cicd/buildspec/plan-buildspec.yml"
+apply="/home/chimezirim/Group2-cicd/buildspec/apply-buildspec.yml" 
+aws-s3-bucket="grants-pipeline"
